@@ -1,4 +1,5 @@
 # Chatteo
-A very minimalistic-simple chatting app
+An Open Source chatting app
 
-It's still in prototype
+Latest version: dev version 1.0
+Latest snapshot: dvP1Uict

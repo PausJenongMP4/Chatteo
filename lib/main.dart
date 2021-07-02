@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'UI/walktrough_ui_MNT.dart';
+import 'Server&firebase/sys.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      body: WalktroughMNT(),
+      body:Sys(),
     ));
   }
 }

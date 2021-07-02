@@ -1,7 +1,7 @@
 // Page Connector
 
 import 'package:flutter/material.dart';
-import '../UI/walktrough_ui.dart';
+import '../UI/walktrough_ui_MNT.dart';
 
 void main() {
   runApp(Sys());
@@ -15,6 +15,6 @@ class Sys extends StatefulWidget {
 class _SysState extends State<Sys> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(body: WalktroughPage()));
+    return MaterialApp(home: Scaffold(body: WalktroughMNT()));
   }
 }
